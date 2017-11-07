@@ -48,4 +48,9 @@ class Yii2 implements BootstrapInterface
 
         return new Application($config);
     }
+
+    public function getStaticDirectory()
+    {
+        return '';
+    }
 }
