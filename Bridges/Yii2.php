@@ -3,7 +3,7 @@
 namespace PHPPM\Bridges;
 
 use React\Http\Request as ReactRequest;
-use React\Http\Response as ReactResponse;
+use PHPPM\React\HttpResponse as ReactResponse;
 use Zend\Http\PhpEnvironment\Request as ZendRequest;
 use Zend\Http\PhpEnvironment\Response as ZendResponse;
 use Zend\Http\Headers as ZendHeaders;
