@@ -1,0 +1,11 @@
+{
+    "name": "php-pm/yii2",
+    "require": {
+        "yiisoft/yii2": "^2.0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPPM\\": ""
+        }
+    }
+}
