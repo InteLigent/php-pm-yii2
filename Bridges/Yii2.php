@@ -31,6 +31,11 @@ class Yii2 implements BridgeInterface
         $this->application = $bootstrap->getApplication();
     }
 
+    public function getStaticDirectory()
+    {
+        return '';
+    }
+
     /**
      * Handle a request using Zend\Mvc\Application.
      *
